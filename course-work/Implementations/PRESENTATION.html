@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RiskManagementPlatform — презентация</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --panel: #1e293b;
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent2: #34d399;
+      --warn: #fbbf24;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; background: var(--bg); color: var(--text);
+      font-family: "Segoe UI", system-ui, sans-serif; }
+    .deck { height: 100%; overflow: hidden; }
+    .slide {
+      display: none; height: 100%; padding: 4.5rem 5rem 3.5rem;
+      flex-direction: column; justify-content: center;
+      background: linear-gradient(160deg, #0f172a 0%, #1e293b 55%, #0f172a 100%);
+    }
+    .slide.active { display: flex; }
+    .slide h1 { font-size: 2.6rem; font-weight: 700; letter-spacing: -0.02em;
+      margin-bottom: 0.75rem; max-width: 18ch; }
+    .slide h2 { font-size: 2rem; color: var(--accent); margin-bottom: 1.5rem;
+      font-weight: 650; }
+    .slide .lead { font-size: 1.25rem; color: var(--muted); max-width: 42rem;
+      line-height: 1.5; }
+    .slide ul { list-style: none; font-size: 1.15rem; line-height: 1.7; }
+    .slide li { margin-bottom: 0.55rem; padding-left: 1.25rem; position: relative; }
+    .slide li::before {
+      content: ""; position: absolute; left: 0; top: 0.7em;
+      width: 0.45rem; height: 0.45rem; border-radius: 50%; background: var(--accent);
+    }
+    .meta { color: var(--muted); font-size: 1rem; margin-top: 1.5rem; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; margin-top: 0.5rem; }
+    .card {
+      background: rgba(30, 41, 59, 0.85); border: 1px solid #334155;
+      border-radius: 12px; padding: 1.1rem 1.25rem;
+    }
+    .card h3 { font-size: 1rem; color: var(--accent2); margin-bottom: 0.5rem; }
+    .card p, .card li { font-size: 0.98rem; color: var(--text); line-height: 1.45; }
+    .card ul { margin-top: 0.25rem; }
+    .flow {
+      font-family: ui-monospace, Consolas, monospace; font-size: 0.95rem;
+      background: #020617; border: 1px solid #334155; border-radius: 12px;
+      padding: 1.25rem 1.5rem; line-height: 1.65; color: #cbd5e1; white-space: pre;
+      overflow-x: auto; margin-top: 0.5rem;
+    }
+    .tag {
+      display: inline-block; background: #0ea5e920; color: var(--accent);
+      border: 1px solid #0ea5e950; border-radius: 6px; padding: 0.15rem 0.5rem;
+      font-size: 0.85rem; font-family: ui-monospace, Consolas, monospace;
+    }
+    .footer {
+      position: fixed; bottom: 0; left: 0; right: 0; height: 2.75rem;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 1.5rem; background: #020617cc; border-top: 1px solid #334155;
+      font-size: 0.85rem; color: var(--muted); backdrop-filter: blur(6px);
+    }
+    .footer kbd {
+      background: #1e293b; border: 1px solid #475569; border-radius: 4px;
+      padding: 0.1rem 0.4rem; font-size: 0.8rem; color: var(--text);
+    }
+    table { border-collapse: collapse; width: 100%; margin-top: 0.5rem; font-size: 0.95rem; }
+    th, td { text-align: left; padding: 0.45rem 0.6rem; border-bottom: 1px solid #334155; }
+    th { color: var(--accent); font-weight: 600; }
+    .ok { color: var(--accent2); }
+  </style>
+</head>
+<body>
+  <div class="deck" id="deck">
+
+    <section class="slide active">
+      <h1>RiskManagementPlatform</h1>
+      <p class="lead">Платформа за оценка на риск при транзакции — курсова работа по софтуерен анализ (SQL Server).</p>
+      <p class="meta">База данни · функции · процедури · тригери · примерни данни</p>
+    </section>
+
+    <section class="slide">
+      <h2>Цел на проекта</h2>
+      <ul>
+        <li>Автоматична оценка на всяка транзакция чрез набор от правила</li>
+        <li>Изчисляване на риск-скор и вземане на решение (действие + ниво)</li>
+        <li>Създаване на аларми и разпределяне към опашки за анализатори</li>
+        <li>Проследяване на жизнения цикъл: Pending → оценка → преглед → решение</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Архитектура (накратко)</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Данни</h3>
+          <p>11 таблици: Transaction, Rule, Rule_Execution, Risk_score, Alert, Case_Queue и др.</p>
+        </div>
+        <div class="card">
+          <h3>Логика</h3>
+          <p>2 функции, 2 процедури, 2 тригера — целият workflow е в SQL Server.</p>
+        </div>
+        <div class="card">
+          <h3>Исторически прагове</h3>
+          <p>Risk_score с Valid_from / Valid_to — стара (3 нива) и нова (6 нива) конфигурация.</p>
+        </div>
+        <div class="card">
+          <h3>Правила</h3>
+          <p>10 правила с тегла; активност през Rule_Availability.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide">
+      <h2>Поток при оценка</h2>
+      <div class="flow">Transaction
+   → usp_EvaluateTransaction
+       → Rule_Execution (активни правила)
+       → fn_GetTransactionScore
+       → fn_GetRiskDecision
+       → UPDATE Transaction.Status
+       → [ниво ≥ 3] Alert + Case_Queue
+   → анализатор променя Alert
+       → trg_Alert_StatusChange → Transaction</div>
+    </section>
+
+    <section class="slide">
+      <h2>Функции</h2>
+      <div class="grid">
+        <div class="card">
+          <h3><span class="tag">fn_GetTransactionScore</span></h3>
+          <ul>
+            <li>Скаларна</li>
+            <li>Сума на Calculated_score при Is_triggered = 1</li>
+            <li>Връща 0, ако няма задействани правила</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3><span class="tag">fn_GetRiskDecision</span></h3>
+          <ul>
+            <li>Таблична (inline TVF)</li>
+            <li>Скор + дата → Action и Risk_level</li>
+            <li>Граници: Low ≤ скор ≤ High (включително)</li>
+            <li>Валидност: Valid_from … Valid_to</li>
+          </ul>
+        </div>
+      </div>
+      <p class="meta ok" style="margin-top:1.25rem">Съответстват на изискванията и се ползват директно от usp_EvaluateTransaction.</p>
+    </section>
+
+    <section class="slide">
+      <h2>Процедури и тригери</h2>
+      <table>
+        <tr><th>Обект</th><th>Роля</th></tr>
+        <tr><td>usp_EvaluateTransaction</td><td>Пълна оценка: правила → скор → статус → аларма</td></tr>
+        <tr><td>usp_AddRiskThreshold</td><td>Нов праг с валидация и без припокриване</td></tr>
+        <tr><td>trg_Alert_StatusChange</td><td>Валидни статуси; затваряне → Blocked / Approved</td></tr>
+        <tr><td>trg_AlertCaseQueue_Insert</td><td>Активна опашка; New → Assigned</td></tr>
+      </table>
+    </section>
+
+    <section class="slide">
+      <h2>Статуси по риск-ниво</h2>
+      <table>
+        <tr><th>Ниво</th><th>Transaction.Status</th><th>Аларма?</th></tr>
+        <tr><td>≤ 2</td><td>Approved</td><td>не</td></tr>
+        <tr><td>3</td><td>Pending Verification</td><td>да (≥ 3)</td></tr>
+        <tr><td>4</td><td>Under Review</td><td>да</td></tr>
+        <tr><td>≥ 5</td><td>Blocked</td><td>да</td></tr>
+      </table>
+      <p class="meta">При Confirmed Fraud → Blocked; при False Positive → Approved (тригер 1).</p>
+    </section>
+
+    <section class="slide">
+      <h2>Как се пуска</h2>
+      <ul>
+        <li>1. <span class="tag">create_db_tables.sql</span> — БД + таблици</li>
+        <li>2. <span class="tag">functions.sql</span> → <span class="tag">stored-procedures.sql</span> → <span class="tag">triggers.sql</span></li>
+        <li>3. <span class="tag">data.sql</span> — примерни данни</li>
+        <li>4. <span class="tag">03_run_evaluation.sql</span> — оценка + симулация на анализатори</li>
+      </ul>
+      <p class="meta">Подробности: README.md</p>
+    </section>
+
+    <section class="slide">
+      <h2>Резултат / демонстрация</h2>
+      <ul>
+        <li>Стотици транзакции оценени автоматично</li>
+        <li>Аларми в различни опашки (вкл. AML при рискова държава)</li>
+        <li>Топ 10 най-рискови транзакции чрез двете функции</li>
+        <li>Валидация: припокриващ праг се отхвърля от usp_AddRiskThreshold</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h1>Благодаря за вниманието</h1>
+      <p class="lead">Въпроси?</p>
+      <p class="meta">RiskManagementPlatform · SQL Server</p>
+    </section>
+
+  </div>
+
+  <div class="footer">
+    <span>← → или клик · F за цял екран</span>
+    <span id="counter">1 / 10</span>
+  </div>
+
+  <script>
+    const slides = [...document.querySelectorAll('.slide')];
+    let i = 0;
+    const counter = document.getElementById('counter');
+    function show(n) {
+      i = (n + slides.length) % slides.length;
+      slides.forEach((s, k) => s.classList.toggle('active', k === i));
+      counter.textContent = (i + 1) + ' / ' + slides.length;
+    }
+    document.addEventListener('keydown', e => {
+      if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') { e.preventDefault(); show(i + 1); }
+      if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); show(i - 1); }
+      if (e.key === 'f' || e.key === 'F') {
+        if (!document.fullscreenElement) document.documentElement.requestFullscreen();
+        else document.exitFullscreen();
+      }
+      if (e.key === 'Home') show(0);
+      if (e.key === 'End') show(slides.length - 1);
+    });
+    document.getElementById('deck').addEventListener('click', e => {
+      if (e.clientX > window.innerWidth / 2) show(i + 1); else show(i - 1);
+    });
+  </script>
+</body>
+</html>
