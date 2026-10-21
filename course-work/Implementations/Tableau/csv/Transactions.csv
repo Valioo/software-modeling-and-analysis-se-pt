@@ -1,0 +1,351 @@
+﻿"Transaction_Id","Transaction_Time","Hour_of_day","Account_Id","Account_Type","Device_Id","Device_Type","Amount","Currency","Source_country","Destination_country","Is_cross_border","Transaction_Status","Is_blocked","Is_evaluated","Total_score","Triggered_rules_count","Risk_level","Action_Name","Alert_Id","Alert_Status","Has_alert"
+1,2026-08-01 11:49:06,11,51,"Savings",4,"Mobile App - iOS",2629.18,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+2,2026-08-01 12:45:07,12,11,"Business",31,"Web Browser - Desktop",924.27,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+3,2026-08-01 13:24:32,13,44,"Personal Current",6,"Mobile App - iOS",31.99,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+4,2026-08-02 07:07:08,7,41,"Premium",3,"Mobile App - iOS",154.80,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+5,2026-08-02 15:03:21,15,30,"Personal Current",2,"Mobile App - iOS",15.43,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+6,2026-08-02 18:24:47,18,23,"Student",11,"Mobile App - iOS",4.96,"CHF","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+7,2026-08-03 12:19:47,12,52,"Business",31,"Web Browser - Desktop",2000.00,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,8.00,1,1,"Approve",,,0
+8,2026-08-03 12:43:58,12,27,"Personal Current",8,"Mobile App - iOS",46.93,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+9,2026-08-03 14:58:39,14,18,"Business",35,"Web Browser - Desktop",684.71,"GBP","United Kingdom","United Kingdom",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+10,2026-08-03 19:19:04,19,19,"Personal Current",5,"Mobile App - iOS",29.91,"EUR","Romania","Romania",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+11,2026-08-04 04:09:41,4,29,"Personal Current",25,"Mobile App - Android",19531.49,"EUR","Germany","Nigeria",1,"Under Review",0,1,50.00,3,4,"Hold for Manual Review",1,"Assigned",1
+12,2026-08-04 09:56:14,9,28,"Business",39,"POS Terminal",312.47,"CHF","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+13,2026-08-04 10:29:17,10,46,"Savings",19,"Mobile App - Android",2500.00,"GBP","United Kingdom","United Kingdom",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+14,2026-08-04 13:17:45,13,3,"Personal Current",35,"Web Browser - Desktop",563.50,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+15,2026-08-04 16:38:13,16,60,"Personal Current",14,"Mobile App - Android",314.43,"GBP","United Kingdom","United Kingdom",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+16,2026-08-04 17:01:41,17,28,"Business",27,"Web Browser - Desktop",107.07,"CHF","Bulgaria","Italy",1,"Approved",0,1,25.00,2,2,"Approve and Notify Customer",,,0
+17,2026-08-04 18:55:18,18,48,"Premium",31,"Web Browser - Desktop",123.98,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+18,2026-08-05 12:02:12,12,15,"Premium",20,"Mobile App - Android",172.70,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+19,2026-08-05 16:07:33,16,18,"Business",35,"Web Browser - Desktop",61.53,"GBP","United Kingdom","United Kingdom",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+20,2026-08-05 17:57:46,17,28,"Business",37,"ATM",174.23,"CHF","Bulgaria","Bulgaria",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+21,2026-08-06 03:15:38,3,28,"Business",33,"Web Browser - Desktop",6138.44,"CHF","Brazil","Myanmar",1,"Blocked",1,1,80.00,5,5,"Block Transaction",2,"Assigned",1
+22,2026-08-06 08:12:08,8,7,"Savings",14,"Mobile App - Android",179.34,"EUR","Greece","Greece",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+23,2026-08-06 19:29:11,19,20,"Personal Current",1,"Mobile App - iOS",100.02,"EUR","Netherlands","Netherlands",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+24,2026-08-07 03:54:40,3,15,"Premium",40,"POS Terminal",119.72,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,25.00,2,2,"Approve and Notify Customer",,,0
+25,2026-08-07 04:20:48,4,41,"Premium",24,"Mobile App - Android",8176.94,"EUR","Bulgaria","North Korea",1,"Under Review",0,1,60.00,4,4,"Hold for Manual Review",3,"Assigned",1
+26,2026-08-07 13:07:29,13,4,"Personal Current",6,"Mobile App - iOS",24.13,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+27,2026-08-07 13:42:13,13,36,"Business",34,"Web Browser - Desktop",132.26,"EUR","Germany","Germany",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+28,2026-08-07 13:56:56,13,4,"Personal Current",6,"Mobile App - iOS",23.88,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+29,2026-08-08 07:06:01,7,46,"Savings",19,"Mobile App - Android",4722.68,"GBP","United Kingdom","United Kingdom",0,"Approved",0,1,12.00,1,1,"Approve",,,0
+30,2026-08-08 09:18:56,9,28,"Business",30,"Web Browser - Desktop",3199.03,"CHF","Bulgaria","Bulgaria",0,"Approved",0,1,27.00,2,2,"Approve and Notify Customer",,,0
+31,2026-08-08 13:22:47,13,40,"Personal Current",33,"Web Browser - Desktop",18.94,"EUR","Bulgaria","Singapore",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+32,2026-08-08 13:24:33,13,40,"Personal Current",33,"Web Browser - Desktop",12.25,"EUR","Bulgaria","Ireland",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+33,2026-08-08 13:25:52,13,40,"Personal Current",33,"Web Browser - Desktop",19.68,"EUR","Bulgaria","Singapore",1,"Approved",0,1,30.00,2,2,"Approve and Notify Customer",,,0
+34,2026-08-09 06:10:22,6,49,"Savings",6,"Mobile App - iOS",2846.04,"CHF","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+35,2026-08-09 07:43:43,7,57,"Student",12,"Mobile App - iOS",7.25,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+36,2026-08-09 12:29:17,12,18,"Business",35,"Web Browser - Desktop",687.17,"GBP","United Kingdom","United Kingdom",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+37,2026-08-09 14:37:36,14,12,"Personal Current",11,"Mobile App - iOS",82.15,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+38,2026-08-09 15:32:39,15,42,"Personal Current",14,"Mobile App - Android",49.84,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+39,2026-08-09 19:23:51,19,41,"Premium",3,"Mobile App - iOS",2150.23,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+40,2026-08-09 20:50:50,20,8,"Business",35,"Web Browser - Desktop",127.21,"CHF","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+41,2026-08-10 12:35:23,12,24,"Personal Current",34,"Web Browser - Desktop",16.15,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+42,2026-08-10 12:39:19,12,7,"Savings",14,"Mobile App - Android",6396.41,"EUR","Italy","Italy",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+43,2026-08-10 16:53:41,16,47,"Business",31,"Web Browser - Desktop",22.49,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+44,2026-08-10 18:11:14,18,57,"Student",34,"Web Browser - Desktop",45.52,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+45,2026-08-10 19:00:23,19,26,"Savings",14,"Mobile App - Android",296.55,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+46,2026-08-10 20:56:16,20,32,"Personal Current",35,"Web Browser - Desktop",38.81,"EUR","Netherlands","Netherlands",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+47,2026-08-11 14:44:42,14,6,"Personal Current",30,"Web Browser - Desktop",32.60,"EUR","Germany","Germany",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+48,2026-08-11 16:57:36,16,23,"Student",11,"Mobile App - iOS",22.66,"CHF","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+49,2026-08-12 12:54:23,12,13,"Personal Current",16,"Mobile App - Android",21.98,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+50,2026-08-12 13:31:01,13,15,"Premium",40,"POS Terminal",1324.12,"EUR","Bulgaria","Austria",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+51,2026-08-12 18:06:01,18,31,"Personal Current",22,"Mobile App - Android",45.28,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+52,2026-08-12 18:49:19,18,6,"Personal Current",30,"Web Browser - Desktop",3.87,"EUR","Italy","Italy",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+53,2026-08-12 19:31:06,19,29,"Personal Current",6,"Mobile App - iOS",174.05,"EUR","Germany","Germany",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+54,2026-08-12 19:32:57,19,37,"Premium",25,"Mobile App - Android",602.53,"EUR","Netherlands","Netherlands",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+55,2026-08-12 19:41:12,19,28,"Business",39,"POS Terminal",135.73,"CHF","Bulgaria","Germany",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+56,2026-08-12 22:49:19,22,6,"Personal Current",30,"Web Browser - Desktop",11.89,"EUR","Italy","Italy",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+57,2026-08-14 12:32:30,12,12,"Personal Current",11,"Mobile App - iOS",84.62,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+58,2026-08-14 18:48:06,18,16,"Personal Current",3,"Mobile App - iOS",18.43,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+59,2026-08-15 12:13:31,12,42,"Personal Current",14,"Mobile App - Android",8.70,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+60,2026-08-15 12:24:52,12,59,"Personal Current",11,"Mobile App - iOS",5.49,"CHF","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+61,2026-08-15 16:15:47,16,18,"Business",35,"Web Browser - Desktop",975.28,"GBP","United Kingdom","United Kingdom",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+62,2026-08-15 19:04:44,19,36,"Business",31,"Web Browser - Desktop",301.89,"EUR","Germany","Germany",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+63,2026-08-15 20:09:44,20,35,"Premium",29,"Web Browser - Desktop",100.94,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+64,2026-08-16 10:53:17,10,50,"Personal Current",24,"Mobile App - Android",315.90,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+65,2026-08-16 10:57:09,10,21,"Personal Current",38,"ATM",46.69,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+66,2026-08-16 19:06:49,19,10,"Personal Current",4,"Mobile App - iOS",83.72,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+67,2026-08-17 08:02:31,8,60,"Personal Current",14,"Mobile App - Android",66.61,"GBP","United Kingdom","United Kingdom",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+68,2026-08-17 11:52:01,11,36,"Business",31,"Web Browser - Desktop",167.46,"EUR","Germany","Germany",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+69,2026-08-17 12:24:24,12,28,"Business",27,"Web Browser - Desktop",1783.53,"CHF","Turkey","Turkey",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+70,2026-08-17 18:44:38,18,26,"Savings",14,"Mobile App - Android",77.14,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+71,2026-08-17 19:09:40,19,7,"Savings",40,"POS Terminal",834.45,"EUR","Greece","Greece",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+72,2026-08-17 21:27:22,21,5,"Premium",16,"Mobile App - Android",2500.00,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+73,2026-08-18 16:18:51,16,39,"Student",39,"POS Terminal",36.01,"EUR","Germany","Turkey",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+74,2026-08-18 18:11:34,18,28,"Business",30,"Web Browser - Desktop",113.19,"CHF","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+75,2026-08-19 08:40:46,8,18,"Business",35,"Web Browser - Desktop",310.62,"GBP","United Kingdom","United Kingdom",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+76,2026-08-19 10:01:17,10,26,"Savings",14,"Mobile App - Android",5375.80,"EUR","France","France",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+77,2026-08-19 10:07:07,10,53,"Business",29,"Web Browser - Desktop",2693.68,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+78,2026-08-19 15:01:17,15,26,"Savings",14,"Mobile App - Android",3909.09,"EUR","France","France",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+79,2026-08-19 16:50:19,16,17,"Personal Current",1,"Mobile App - iOS",20.12,"EUR","Germany","United States",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+80,2026-08-19 16:52:12,16,17,"Personal Current",1,"Mobile App - iOS",17.06,"EUR","Germany","United States",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+81,2026-08-19 16:52:57,16,17,"Personal Current",1,"Mobile App - iOS",28.88,"EUR","Germany","Ireland",1,"Approved",0,1,30.00,2,2,"Approve and Notify Customer",,,0
+82,2026-08-19 16:56:25,16,17,"Personal Current",1,"Mobile App - iOS",12.63,"EUR","Germany","Singapore",1,"Approved",0,1,30.00,2,2,"Approve and Notify Customer",,,0
+83,2026-08-20 02:30:15,2,22,"Personal Current",16,"Mobile App - Android",8514.83,"EUR","Moldova","Somalia",1,"Pending Verification",0,1,45.00,3,3,"Step-up Authentication (OTP)",4,"Assigned",1
+84,2026-08-20 10:17:13,10,52,"Business",31,"Web Browser - Desktop",518.63,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+85,2026-08-20 11:19:05,11,1,"Business",35,"Web Browser - Desktop",2500.00,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+86,2026-08-20 16:28:21,16,22,"Personal Current",25,"Mobile App - Android",114.65,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+87,2026-08-20 20:25:41,20,21,"Personal Current",32,"Web Browser - Desktop",165.38,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+88,2026-08-21 05:07:32,5,35,"Premium",3,"Mobile App - iOS",400.35,"EUR","Italy","Italy",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+89,2026-08-21 12:14:52,12,30,"Personal Current",2,"Mobile App - iOS",41.42,"EUR","Bulgaria","Austria",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+90,2026-08-21 16:57:54,16,5,"Premium",16,"Mobile App - Android",558.37,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+91,2026-08-21 21:06:05,21,34,"Business",35,"Web Browser - Desktop",2438.69,"EUR","Italy","Italy",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+92,2026-08-21 22:10:29,22,38,"Personal Current",6,"Mobile App - iOS",97.65,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+93,2026-08-22 01:14:42,1,58,"Savings",36,"Web Browser - Desktop",5742.82,"EUR","Bulgaria","Turkey",1,"Approved",0,1,32.00,3,2,"Approve and Notify Customer",,,0
+94,2026-08-22 03:25:51,3,38,"Personal Current",27,"Web Browser - Desktop",4588.05,"EUR","Moldova","North Korea",1,"Blocked",1,1,72.00,5,5,"Block Transaction",5,"Assigned",1
+95,2026-08-22 04:55:16,4,6,"Personal Current",36,"Web Browser - Desktop",29277.66,"EUR","Russia","Iran",1,"Blocked",1,1,122.00,7,6,"Block and Freeze Account",6,"Assigned",1
+96,2026-08-22 15:34:05,15,39,"Student",17,"Mobile App - Android",25.77,"EUR","Germany","Germany",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+97,2026-08-22 16:45:03,16,35,"Premium",29,"Web Browser - Desktop",792.99,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+98,2026-08-22 17:05:36,17,39,"Student",17,"Mobile App - Android",11.88,"EUR","Spain","Spain",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+99,2026-08-22 18:51:47,18,42,"Personal Current",14,"Mobile App - Android",250.89,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+100,2026-08-22 19:05:36,19,39,"Student",17,"Mobile App - Android",36.24,"EUR","Spain","Spain",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+101,2026-08-23 06:17:22,6,42,"Personal Current",14,"Mobile App - Android",27.89,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+102,2026-08-23 17:13:54,17,50,"Personal Current",24,"Mobile App - Android",4.74,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+103,2026-08-23 17:37:06,17,28,"Business",27,"Web Browser - Desktop",21257.41,"CHF","Bulgaria","Bulgaria",0,"Under Review",0,1,62.00,3,4,"Hold for Manual Review",7,"Assigned",1
+104,2026-08-24 16:23:46,16,11,"Business",37,"ATM",434.48,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+105,2026-08-25 01:52:50,1,44,"Personal Current",6,"Mobile App - iOS",10.70,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,10.00,1,1,"Approve",,,0
+106,2026-08-25 05:00:36,5,31,"Personal Current",22,"Mobile App - Android",35.52,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+107,2026-08-25 09:35:45,9,47,"Business",36,"Web Browser - Desktop",380.60,"EUR","Poland","Poland",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+108,2026-08-25 10:12:29,10,31,"Personal Current",22,"Mobile App - Android",26.71,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+109,2026-08-25 13:27:33,13,9,"Savings",3,"Mobile App - iOS",392.39,"EUR","Greece","Greece",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+110,2026-08-26 00:48:05,0,51,"Savings",15,"Mobile App - Android",4230.45,"EUR","Bulgaria","Syria",1,"Under Review",0,1,60.00,4,4,"Hold for Manual Review",8,"Assigned",1
+111,2026-08-26 16:21:44,16,1,"Business",35,"Web Browser - Desktop",1223.04,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+112,2026-08-27 08:18:44,8,18,"Business",33,"Web Browser - Desktop",226.76,"GBP","United Kingdom","United Kingdom",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+113,2026-08-27 18:04:51,18,8,"Business",35,"Web Browser - Desktop",1205.58,"CHF","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+114,2026-08-28 05:15:13,5,60,"Personal Current",9,"Mobile App - iOS",56.42,"GBP","Turkey","Turkey",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+115,2026-08-28 10:41:22,10,46,"Savings",19,"Mobile App - Android",737.25,"GBP","United Kingdom","United Kingdom",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+116,2026-08-28 11:15:13,11,60,"Personal Current",14,"Mobile App - Android",34.93,"GBP","Turkey","Turkey",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+117,2026-08-28 11:36:01,11,33,"Student",5,"Mobile App - iOS",64.06,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+118,2026-08-28 14:09:46,14,11,"Business",31,"Web Browser - Desktop",244.31,"EUR","Bulgaria","Turkey",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+119,2026-08-28 17:44:53,17,18,"Business",33,"Web Browser - Desktop",1392.96,"GBP","United Kingdom","United Kingdom",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+120,2026-08-29 09:28:17,9,8,"Business",36,"Web Browser - Desktop",64.08,"CHF","Bulgaria","Bulgaria",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+121,2026-08-29 21:39:26,21,50,"Personal Current",24,"Mobile App - Android",352.65,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+122,2026-08-30 12:38:21,12,2,"Business",34,"Web Browser - Desktop",20000.00,"EUR","Bulgaria","Bulgaria",0,"Under Review",0,1,50.00,3,4,"Hold for Manual Review",9,"Assigned",1
+123,2026-08-30 16:41:16,16,5,"Premium",16,"Mobile App - Android",319.28,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+124,2026-08-30 18:38:33,18,60,"Personal Current",21,"Mobile App - Android",12.13,"GBP","United Kingdom","Ireland",1,"Approved",0,1,25.00,2,2,"Approve and Notify Customer",,,0
+125,2026-08-30 18:40:16,18,60,"Personal Current",21,"Mobile App - Android",24.20,"GBP","United Kingdom","Singapore",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+126,2026-08-30 18:41:12,18,60,"Personal Current",21,"Mobile App - Android",38.50,"GBP","United Kingdom","Singapore",1,"Approved",0,1,30.00,2,2,"Approve and Notify Customer",,,0
+127,2026-08-30 19:10:59,19,17,"Personal Current",26,"Mobile App - Android",183.85,"EUR","Germany","Turkey",1,"Pending Verification",0,1,45.00,3,3,"Step-up Authentication (OTP)",10,"Assigned",1
+128,2026-08-30 19:19:35,19,21,"Personal Current",32,"Web Browser - Desktop",39.82,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+129,2026-08-31 09:30:34,9,53,"Business",39,"POS Terminal",1384.02,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+130,2026-08-31 10:25:41,10,58,"Savings",21,"Mobile App - Android",2000.00,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,23.00,2,2,"Approve and Notify Customer",,,0
+131,2026-08-31 10:31:39,10,4,"Personal Current",8,"Mobile App - iOS",36.82,"EUR","Bulgaria","Singapore",1,"Approved",0,1,25.00,2,2,"Approve and Notify Customer",,,0
+132,2026-08-31 10:32:59,10,4,"Personal Current",8,"Mobile App - iOS",5.47,"EUR","Bulgaria","United States",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+133,2026-08-31 10:33:10,10,4,"Personal Current",8,"Mobile App - iOS",17.46,"EUR","Bulgaria","Ireland",1,"Approved",0,1,30.00,2,2,"Approve and Notify Customer",,,0
+134,2026-08-31 10:35:32,10,4,"Personal Current",8,"Mobile App - iOS",21.12,"EUR","Bulgaria","Singapore",1,"Approved",0,1,30.00,2,2,"Approve and Notify Customer",,,0
+135,2026-08-31 17:51:47,17,46,"Savings",19,"Mobile App - Android",221.72,"GBP","United Kingdom","United Kingdom",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+136,2026-09-01 08:11:00,8,21,"Personal Current",32,"Web Browser - Desktop",52.97,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+137,2026-09-01 10:40:15,10,17,"Personal Current",26,"Mobile App - Android",11.88,"EUR","Germany","Germany",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+138,2026-09-02 02:48:01,2,49,"Savings",30,"Web Browser - Desktop",4296.33,"CHF","Russia","Myanmar",1,"Under Review",0,1,60.00,4,4,"Hold for Manual Review",11,"Assigned",1
+139,2026-09-02 14:20:53,14,39,"Student",17,"Mobile App - Android",71.07,"EUR","Poland","Poland",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+140,2026-09-02 16:20:53,16,39,"Student",17,"Mobile App - Android",19.08,"EUR","Poland","Poland",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+141,2026-09-02 21:38:42,21,3,"Personal Current",4,"Mobile App - iOS",14.33,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+142,2026-09-03 01:33:17,1,4,"Personal Current",3,"Mobile App - iOS",26843.13,"EUR","Bulgaria","United States",1,"Blocked",1,1,85.00,5,5,"Block Transaction",12,"Assigned",1
+143,2026-09-03 06:45:20,6,21,"Personal Current",3,"Mobile App - iOS",168.62,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+144,2026-09-03 08:40:17,8,56,"Business",36,"Web Browser - Desktop",2825.67,"USD","Poland","Poland",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+145,2026-09-03 10:31:18,10,14,"Personal Current",36,"Web Browser - Desktop",131.69,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+146,2026-09-03 18:19:55,18,7,"Savings",14,"Mobile App - Android",294.65,"EUR","Greece","Greece",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+147,2026-09-03 19:57:49,19,33,"Student",29,"Web Browser - Desktop",5.39,"EUR","Bulgaria","Romania",1,"Approved",0,1,25.00,2,2,"Approve and Notify Customer",,,0
+148,2026-09-04 02:31:08,2,31,"Personal Current",24,"Mobile App - Android",22170.82,"EUR","Bulgaria","Syria",1,"Blocked",1,1,110.00,6,6,"Block and Freeze Account",13,"Assigned",1
+149,2026-09-04 09:37:43,9,7,"Savings",27,"Web Browser - Desktop",407.21,"EUR","Greece","Greece",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+150,2026-09-04 10:01:31,10,6,"Personal Current",30,"Web Browser - Desktop",52.21,"EUR","Germany","Germany",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+151,2026-09-04 10:44:05,10,38,"Personal Current",34,"Web Browser - Desktop",8.06,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+152,2026-09-04 15:44:35,15,8,"Business",36,"Web Browser - Desktop",379.40,"CHF","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+153,2026-09-04 20:38:28,20,20,"Personal Current",1,"Mobile App - iOS",35.97,"EUR","Netherlands","Spain",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+154,2026-09-04 22:02:30,22,47,"Business",36,"Web Browser - Desktop",764.61,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+155,2026-09-05 09:10:19,9,27,"Personal Current",8,"Mobile App - iOS",80.88,"EUR","Bulgaria","Spain",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+156,2026-09-05 19:20:10,19,27,"Personal Current",8,"Mobile App - iOS",111.50,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+157,2026-09-05 19:39:34,19,13,"Personal Current",16,"Mobile App - Android",16.72,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+158,2026-09-06 15:07:42,15,12,"Personal Current",11,"Mobile App - iOS",47.94,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+159,2026-09-07 08:10:33,8,2,"Business",32,"Web Browser - Desktop",4425.23,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+160,2026-09-07 09:24:20,9,32,"Personal Current",35,"Web Browser - Desktop",19.47,"EUR","Netherlands","Netherlands",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+161,2026-09-07 11:41:50,11,55,"Personal Current",30,"Web Browser - Desktop",15.17,"EUR","Romania","Romania",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+162,2026-09-07 12:06:00,12,28,"Business",27,"Web Browser - Desktop",9536.25,"CHF","Bulgaria","Bulgaria",0,"Approved",0,1,25.00,1,2,"Approve and Notify Customer",,,0
+163,2026-09-07 13:05:10,13,47,"Business",31,"Web Browser - Desktop",952.72,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+164,2026-09-07 16:12:58,16,24,"Personal Current",34,"Web Browser - Desktop",38.29,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+165,2026-09-07 17:40:02,17,53,"Business",31,"Web Browser - Desktop",119.20,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+166,2026-09-07 17:48:25,17,56,"Business",28,"Web Browser - Desktop",19970.37,"USD","Greece","Greece",0,"Pending Verification",0,1,45.00,2,3,"Step-up Authentication (OTP)",14,"Assigned",1
+167,2026-09-07 19:52:10,19,36,"Business",31,"Web Browser - Desktop",10459.53,"EUR","Germany","Germany",0,"Under Review",0,1,50.00,2,4,"Hold for Manual Review",15,"Assigned",1
+168,2026-09-08 09:27:42,9,60,"Personal Current",13,"Mobile App - Android",44.42,"GBP","United Kingdom","Ireland",1,"Approved",0,1,25.00,2,2,"Approve and Notify Customer",,,0
+169,2026-09-08 09:29:11,9,60,"Personal Current",13,"Mobile App - Android",3.60,"GBP","United Kingdom","Singapore",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+170,2026-09-08 09:31:13,9,60,"Personal Current",13,"Mobile App - Android",14.11,"GBP","United Kingdom","Singapore",1,"Approved",0,1,30.00,2,2,"Approve and Notify Customer",,,0
+171,2026-09-08 09:31:30,9,60,"Personal Current",13,"Mobile App - Android",31.41,"GBP","United Kingdom","Ireland",1,"Approved",0,1,30.00,2,2,"Approve and Notify Customer",,,0
+172,2026-09-08 09:31:39,9,60,"Personal Current",13,"Mobile App - Android",36.18,"GBP","United Kingdom","Ireland",1,"Approved",0,1,30.00,2,2,"Approve and Notify Customer",,,0
+173,2026-09-08 11:16:36,11,32,"Personal Current",35,"Web Browser - Desktop",58.68,"EUR","Netherlands","Netherlands",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+174,2026-09-08 15:53:29,15,9,"Savings",3,"Mobile App - iOS",426.01,"EUR","Greece","Greece",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+175,2026-09-08 17:45:20,17,59,"Personal Current",11,"Mobile App - iOS",20.53,"CHF","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+176,2026-09-09 07:13:59,7,58,"Savings",21,"Mobile App - Android",889.02,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+177,2026-09-09 12:23:06,12,17,"Personal Current",26,"Mobile App - Android",69.74,"EUR","Germany","Poland",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+178,2026-09-09 16:47:59,16,36,"Business",31,"Web Browser - Desktop",2000.00,"EUR","Germany","Germany",0,"Approved",0,1,8.00,1,1,"Approve",,,0
+179,2026-09-10 19:06:26,19,37,"Premium",25,"Mobile App - Android",49.77,"EUR","Netherlands","Netherlands",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+180,2026-09-11 09:51:44,9,14,"Personal Current",18,"Mobile App - Android",37.57,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+181,2026-09-11 18:18:30,18,59,"Personal Current",11,"Mobile App - iOS",202.14,"CHF","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+182,2026-09-11 18:43:02,18,32,"Personal Current",38,"ATM",23.56,"EUR","Netherlands","Netherlands",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+183,2026-09-12 14:09:51,14,18,"Business",35,"Web Browser - Desktop",254.54,"GBP","United Kingdom","United Kingdom",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+184,2026-09-13 01:48:14,1,31,"Personal Current",18,"Mobile App - Android",22.21,"EUR","Netherlands","Netherlands",0,"Approved",0,1,25.00,2,2,"Approve and Notify Customer",,,0
+185,2026-09-13 09:03:46,9,2,"Business",32,"Web Browser - Desktop",1032.12,"EUR","Poland","Poland",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+186,2026-09-13 15:07:05,15,54,"Personal Current",34,"Web Browser - Desktop",20.51,"EUR","Bulgaria","United States",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+187,2026-09-13 15:09:25,15,54,"Personal Current",34,"Web Browser - Desktop",25.23,"EUR","Bulgaria","Singapore",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+188,2026-09-13 15:11:05,15,54,"Personal Current",34,"Web Browser - Desktop",6.76,"EUR","Bulgaria","United States",1,"Approved",0,1,30.00,2,2,"Approve and Notify Customer",,,0
+189,2026-09-13 15:12:41,15,54,"Personal Current",34,"Web Browser - Desktop",19.61,"EUR","Bulgaria","United States",1,"Approved",0,1,30.00,2,2,"Approve and Notify Customer",,,0
+190,2026-09-13 17:22:30,17,52,"Business",40,"POS Terminal",1044.39,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+191,2026-09-13 17:42:45,17,33,"Student",5,"Mobile App - iOS",12.80,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+192,2026-09-13 21:40:16,21,11,"Business",32,"Web Browser - Desktop",592.66,"EUR","Bulgaria","Romania",1,"Approved",0,1,25.00,2,2,"Approve and Notify Customer",,,0
+193,2026-09-14 11:50:00,11,58,"Savings",21,"Mobile App - Android",9499.80,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,25.00,1,2,"Approve and Notify Customer",,,0
+194,2026-09-14 12:40:44,12,19,"Personal Current",5,"Mobile App - iOS",38.38,"EUR","Romania","Romania",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+195,2026-09-14 17:14:21,17,2,"Business",37,"ATM",467.52,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+196,2026-09-14 20:09:05,20,55,"Personal Current",30,"Web Browser - Desktop",61.26,"EUR","Romania","Italy",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+197,2026-09-15 08:10:11,8,35,"Premium",29,"Web Browser - Desktop",84.20,"EUR","Spain","Spain",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+198,2026-09-15 16:08:00,16,2,"Business",32,"Web Browser - Desktop",9645.35,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,25.00,1,2,"Approve and Notify Customer",,,0
+199,2026-09-16 06:03:56,6,45,"Savings",31,"Web Browser - Desktop",175.17,"EUR","Romania","Greece",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+200,2026-09-16 08:53:49,8,46,"Savings",19,"Mobile App - Android",3000.00,"GBP","United Kingdom","United Kingdom",0,"Approved",0,1,8.00,1,1,"Approve",,,0
+201,2026-09-16 12:49:43,12,51,"Savings",4,"Mobile App - iOS",4993.38,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+202,2026-09-16 16:03:00,16,2,"Business",34,"Web Browser - Desktop",9611.57,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,25.00,1,2,"Approve and Notify Customer",,,0
+203,2026-09-16 21:39:34,21,46,"Savings",19,"Mobile App - Android",399.91,"GBP","United Kingdom","United Kingdom",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+204,2026-09-17 06:05:11,6,33,"Student",5,"Mobile App - iOS",39.58,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+205,2026-09-17 19:43:59,19,57,"Student",12,"Mobile App - iOS",28.84,"EUR","Greece","Greece",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+206,2026-09-18 01:43:59,1,57,"Student",12,"Mobile App - iOS",18.89,"EUR","Greece","Greece",0,"Approved",0,1,10.00,1,1,"Approve",,,0
+207,2026-09-18 07:26:23,7,19,"Personal Current",5,"Mobile App - iOS",61.99,"EUR","Romania","Romania",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+208,2026-09-18 07:44:31,7,1,"Business",27,"Web Browser - Desktop",12000.00,"EUR","Bulgaria","Bulgaria",0,"Under Review",0,1,53.00,3,4,"Hold for Manual Review",16,"Assigned",1
+209,2026-09-18 09:50:57,9,45,"Savings",31,"Web Browser - Desktop",42.28,"EUR","Romania","Turkey",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+210,2026-09-18 12:27:07,12,45,"Savings",39,"POS Terminal",2301.21,"EUR","Romania","Romania",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+211,2026-09-18 17:15:00,17,52,"Business",28,"Web Browser - Desktop",9490.03,"EUR","Bulgaria","Bulgaria",0,"Under Review",0,1,60.00,3,4,"Hold for Manual Review",17,"Assigned",1
+212,2026-09-18 17:22:55,17,47,"Business",31,"Web Browser - Desktop",18489.78,"EUR","Bulgaria","Bulgaria",0,"Under Review",0,1,50.00,2,4,"Hold for Manual Review",18,"Assigned",1
+213,2026-09-18 23:47:52,23,7,"Savings",14,"Mobile App - Android",644.29,"EUR","Greece","Greece",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+214,2026-09-19 04:29:39,4,7,"Savings",22,"Mobile App - Android",12103.06,"EUR","Greece","Iran",1,"Blocked",1,1,110.00,6,6,"Block and Freeze Account",19,"Assigned",1
+215,2026-09-19 07:12:58,7,7,"Savings",38,"ATM",442.97,"EUR","Greece","Greece",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+216,2026-09-19 09:47:40,9,23,"Student",11,"Mobile App - iOS",6.96,"CHF","Italy","Italy",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+217,2026-09-19 10:41:30,10,8,"Business",36,"Web Browser - Desktop",3883.77,"CHF","Bulgaria","Bulgaria",0,"Approved",0,1,20.00,1,2,"Approve and Notify Customer",,,0
+218,2026-09-19 11:55:45,11,17,"Personal Current",26,"Mobile App - Android",16.60,"EUR","Germany","Germany",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+219,2026-09-19 15:56:47,15,12,"Personal Current",11,"Mobile App - iOS",51.54,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+220,2026-09-19 16:54:48,16,46,"Savings",19,"Mobile App - Android",1064.89,"GBP","United Kingdom","United Kingdom",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+221,2026-09-21 07:02:01,7,23,"Student",11,"Mobile App - iOS",3.35,"CHF","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+222,2026-09-21 14:09:00,14,19,"Personal Current",40,"POS Terminal",31.94,"EUR","Romania","France",1,"Approved",0,1,25.00,2,2,"Approve and Notify Customer",,,0
+223,2026-09-21 15:29:59,15,46,"Savings",19,"Mobile App - Android",552.23,"GBP","United Kingdom","United Kingdom",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+224,2026-09-21 17:23:50,17,56,"Business",28,"Web Browser - Desktop",946.92,"USD","Spain","Spain",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+225,2026-09-22 01:57:20,1,47,"Business",4,"Mobile App - iOS",21720.20,"EUR","Bulgaria","Iran",1,"Blocked",1,1,110.00,6,6,"Block and Freeze Account",20,"Assigned",1
+226,2026-09-22 05:57:36,5,19,"Personal Current",5,"Mobile App - iOS",11.64,"EUR","Romania","Romania",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+227,2026-09-22 07:46:48,7,34,"Business",33,"Web Browser - Desktop",657.96,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+228,2026-09-22 11:56:35,11,18,"Business",33,"Web Browser - Desktop",188.12,"GBP","United Kingdom","United Kingdom",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+229,2026-09-22 19:37:24,19,51,"Savings",4,"Mobile App - iOS",630.68,"EUR","Romania","Romania",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+230,2026-09-22 21:01:28,21,8,"Business",35,"Web Browser - Desktop",43194.04,"CHF","Bulgaria","Bulgaria",0,"Under Review",0,1,50.00,2,4,"Hold for Manual Review",21,"Assigned",1
+231,2026-09-23 07:20:18,7,44,"Personal Current",6,"Mobile App - iOS",112.13,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+232,2026-09-23 08:35:55,8,33,"Student",5,"Mobile App - iOS",16.81,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+233,2026-09-23 09:02:23,9,50,"Personal Current",24,"Mobile App - Android",136.69,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+234,2026-09-23 10:19:57,10,48,"Premium",8,"Mobile App - iOS",3.92,"EUR","Bulgaria","Singapore",1,"Approved",0,1,25.00,2,2,"Approve and Notify Customer",,,0
+235,2026-09-23 10:21:20,10,48,"Premium",8,"Mobile App - iOS",5.64,"EUR","Bulgaria","United States",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+236,2026-09-23 10:21:46,10,48,"Premium",8,"Mobile App - iOS",21.28,"EUR","Bulgaria","Singapore",1,"Approved",0,1,30.00,2,2,"Approve and Notify Customer",,,0
+237,2026-09-23 13:15:41,13,34,"Business",35,"Web Browser - Desktop",108.22,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+238,2026-09-23 17:44:31,17,53,"Business",29,"Web Browser - Desktop",623.37,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+239,2026-09-23 21:25:54,21,58,"Savings",21,"Mobile App - Android",1000.00,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,8.00,1,1,"Approve",,,0
+240,2026-09-24 10:13:17,10,16,"Personal Current",3,"Mobile App - iOS",43.02,"EUR","Bulgaria","Netherlands",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+241,2026-09-24 11:28:19,11,47,"Business",31,"Web Browser - Desktop",2046.36,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+242,2026-09-24 21:09:39,21,52,"Business",31,"Web Browser - Desktop",725.47,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+243,2026-09-25 04:01:22,4,53,"Business",24,"Mobile App - Android",6812.66,"EUR","Russia","Turkey",1,"Under Review",0,1,55.00,4,4,"Hold for Manual Review",22,"Assigned",1
+244,2026-09-25 17:57:28,17,8,"Business",35,"Web Browser - Desktop",183.45,"CHF","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+245,2026-09-26 07:15:41,7,48,"Premium",31,"Web Browser - Desktop",113.30,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+246,2026-09-26 18:46:53,18,18,"Business",33,"Web Browser - Desktop",15000.00,"GBP","United Kingdom","United Kingdom",0,"Under Review",0,1,58.00,3,4,"Hold for Manual Review",23,"Assigned",1
+247,2026-09-28 02:45:13,2,29,"Personal Current",32,"Web Browser - Desktop",27938.68,"EUR","Brazil","United Arab Emirates",1,"Under Review",0,1,65.00,4,4,"Hold for Manual Review",24,"Assigned",1
+248,2026-09-28 14:57:41,14,39,"Student",17,"Mobile App - Android",11.64,"EUR","Germany","Germany",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+249,2026-09-29 07:39:14,7,18,"Business",39,"POS Terminal",442.38,"GBP","United Kingdom","United Kingdom",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+250,2026-09-29 11:24:56,11,53,"Business",29,"Web Browser - Desktop",128.95,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+251,2026-09-29 12:02:41,12,9,"Savings",3,"Mobile App - iOS",784.06,"EUR","Greece","Greece",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+252,2026-09-30 06:50:57,6,19,"Personal Current",5,"Mobile App - iOS",84.03,"EUR","Romania","Romania",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+253,2026-09-30 07:08:23,7,42,"Personal Current",14,"Mobile App - Android",58.69,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+254,2026-09-30 08:42:30,8,3,"Personal Current",35,"Web Browser - Desktop",116.21,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+255,2026-09-30 11:48:58,11,52,"Business",31,"Web Browser - Desktop",3059.17,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+256,2026-09-30 16:02:58,16,18,"Business",33,"Web Browser - Desktop",1219.82,"GBP","United Kingdom","United Kingdom",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+257,2026-09-30 17:09:06,17,21,"Personal Current",3,"Mobile App - iOS",28.32,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+258,2026-10-01 07:29:12,7,20,"Personal Current",1,"Mobile App - iOS",147.66,"EUR","Netherlands","Netherlands",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+259,2026-10-01 08:29:10,8,58,"Savings",21,"Mobile App - Android",947.34,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+260,2026-10-01 11:33:48,11,18,"Business",35,"Web Browser - Desktop",5000.00,"GBP","United Kingdom","United Kingdom",0,"Approved",0,1,8.00,1,1,"Approve",,,0
+261,2026-10-01 12:51:11,12,27,"Personal Current",8,"Mobile App - iOS",22.33,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+262,2026-10-01 13:15:34,13,3,"Personal Current",4,"Mobile App - iOS",572.19,"EUR","Bulgaria","Romania",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+263,2026-10-02 00:00:00,0,16,"Personal Current",3,"Mobile App - iOS",64.10,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,10.00,1,1,"Approve",,,0
+264,2026-10-02 06:01:37,6,2,"Business",32,"Web Browser - Desktop",2516.69,"EUR","Bulgaria","Netherlands",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+265,2026-10-02 08:42:01,8,60,"Personal Current",14,"Mobile App - Android",19.19,"GBP","United Kingdom","United Kingdom",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+266,2026-10-02 10:15:00,10,46,"Savings",19,"Mobile App - Android",9381.98,"GBP","United Kingdom","United Kingdom",0,"Pending Verification",0,1,45.00,2,3,"Step-up Authentication (OTP)",25,"Assigned",1
+267,2026-10-02 17:03:40,17,44,"Personal Current",6,"Mobile App - iOS",44.02,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+268,2026-10-02 18:18:18,18,21,"Personal Current",32,"Web Browser - Desktop",48.75,"EUR","Bulgaria","Poland",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+269,2026-10-02 19:16:53,19,23,"Student",11,"Mobile App - iOS",31.52,"CHF","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+270,2026-10-03 01:24:46,1,2,"Business",16,"Mobile App - Android",5040.20,"EUR","Moldova","Somalia",1,"Blocked",1,1,72.00,5,5,"Block Transaction",26,"Assigned",1
+271,2026-10-03 12:01:01,12,51,"Savings",4,"Mobile App - iOS",490.81,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+272,2026-10-03 14:12:04,14,47,"Business",31,"Web Browser - Desktop",2935.37,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+273,2026-10-03 15:11:02,15,4,"Personal Current",6,"Mobile App - iOS",20.08,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+274,2026-10-03 16:11:37,16,51,"Savings",4,"Mobile App - iOS",173.60,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+275,2026-10-03 19:31:05,19,60,"Personal Current",14,"Mobile App - Android",44.77,"GBP","United Kingdom","United Kingdom",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+276,2026-10-03 22:53:26,22,17,"Personal Current",26,"Mobile App - Android",51.68,"EUR","Germany","Germany",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+277,2026-10-03 23:55:16,23,39,"Student",17,"Mobile App - Android",5.46,"EUR","Germany","Germany",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+278,2026-10-04 21:30:07,21,52,"Business",28,"Web Browser - Desktop",12000.00,"EUR","Bulgaria","Bulgaria",0,"Under Review",0,1,50.00,3,4,"Hold for Manual Review",27,"Assigned",1
+279,2026-10-05 01:37:17,1,47,"Business",40,"POS Terminal",398.72,"EUR","Bulgaria","Poland",1,"Pending Verification",0,1,35.00,3,3,"Step-up Authentication (OTP)",28,"Assigned",1
+280,2026-10-05 10:02:03,10,16,"Personal Current",38,"ATM",19.63,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+281,2026-10-05 17:49:54,17,56,"Business",35,"Web Browser - Desktop",611.64,"USD","Italy","Italy",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+282,2026-10-05 17:50:09,17,3,"Personal Current",35,"Web Browser - Desktop",28.90,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+283,2026-10-05 18:06:33,18,30,"Personal Current",2,"Mobile App - iOS",24.06,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+284,2026-10-05 20:06:48,20,25,"Personal Current",26,"Mobile App - Android",40.47,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+285,2026-10-05 22:12:59,22,38,"Personal Current",34,"Web Browser - Desktop",52.37,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+286,2026-10-05 22:49:54,22,56,"Business",12,"Mobile App - iOS",9764.22,"USD","Italy","Italy",0,"Pending Verification",0,1,40.00,2,3,"Step-up Authentication (OTP)",29,"Assigned",1
+287,2026-10-06 08:09:29,8,17,"Personal Current",26,"Mobile App - Android",178.17,"EUR","Germany","Germany",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+288,2026-10-06 09:57:52,9,51,"Savings",4,"Mobile App - iOS",657.92,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+289,2026-10-06 10:10:37,10,13,"Personal Current",40,"POS Terminal",36.01,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+290,2026-10-06 14:32:16,14,25,"Personal Current",36,"Web Browser - Desktop",68.15,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+291,2026-10-06 17:18:43,17,25,"Personal Current",36,"Web Browser - Desktop",19.45,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+292,2026-10-06 20:12:26,20,17,"Personal Current",38,"ATM",16.99,"EUR","Germany","Germany",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+293,2026-10-07 00:52:17,0,56,"Business",5,"Mobile App - iOS",5940.85,"USD","Greece","North Korea",1,"Under Review",0,1,60.00,4,4,"Hold for Manual Review",30,"Assigned",1
+294,2026-10-07 08:32:35,8,25,"Personal Current",36,"Web Browser - Desktop",53.97,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+295,2026-10-07 09:28:05,9,14,"Personal Current",18,"Mobile App - Android",28.14,"EUR","Bulgaria","France",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+296,2026-10-07 12:25:34,12,41,"Premium",3,"Mobile App - iOS",3000.00,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,8.00,1,1,"Approve",,,0
+297,2026-10-07 14:44:26,14,19,"Personal Current",5,"Mobile App - iOS",236.26,"EUR","Romania","Romania",0,"Approved",0,1,20.00,1,2,"Approve and Notify Customer",,,0
+298,2026-10-07 14:47:20,14,57,"Student",34,"Web Browser - Desktop",38.10,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+299,2026-10-07 21:13:40,21,13,"Personal Current",16,"Mobile App - Android",38.88,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+300,2026-10-09 10:57:59,10,22,"Personal Current",25,"Mobile App - Android",38.01,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+301,2026-10-09 20:03:27,20,17,"Personal Current",26,"Mobile App - Android",10.06,"EUR","Germany","Germany",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+302,2026-10-10 04:10:43,4,22,"Personal Current",25,"Mobile App - Android",56.81,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,10.00,1,1,"Approve",,,0
+303,2026-10-10 07:28:09,7,14,"Personal Current",18,"Mobile App - Android",88.85,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+304,2026-10-10 10:05:40,10,27,"Personal Current",8,"Mobile App - iOS",61.99,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+305,2026-10-10 10:28:21,10,44,"Personal Current",6,"Mobile App - iOS",26.60,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+306,2026-10-10 12:56:16,12,1,"Business",27,"Web Browser - Desktop",313.32,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+307,2026-10-10 17:43:26,17,26,"Savings",14,"Mobile App - Android",10157.71,"EUR","Germany","Germany",0,"Pending Verification",0,1,42.00,2,3,"Step-up Authentication (OTP)",31,"Assigned",1
+308,2026-10-10 18:43:26,18,26,"Savings",14,"Mobile App - Android",571.94,"EUR","Germany","Germany",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+309,2026-10-11 00:57:28,0,55,"Personal Current",32,"Web Browser - Desktop",6350.68,"EUR","Romania","Iran",1,"Blocked",1,1,72.00,5,5,"Block Transaction",32,"Assigned",1
+310,2026-10-11 13:00:41,13,13,"Personal Current",16,"Mobile App - Android",41.07,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+311,2026-10-11 18:45:11,18,38,"Personal Current",6,"Mobile App - iOS",29.97,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+312,2026-10-12 07:00:19,7,42,"Personal Current",14,"Mobile App - Android",11.11,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+313,2026-10-12 11:39:11,11,11,"Business",31,"Web Browser - Desktop",1959.28,"EUR","Bulgaria","France",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+314,2026-10-12 17:41:05,17,10,"Personal Current",4,"Mobile App - iOS",17.83,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+315,2026-10-12 18:24:51,18,20,"Personal Current",1,"Mobile App - iOS",87.25,"EUR","Netherlands","Netherlands",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+316,2026-10-13 01:34:21,1,22,"Personal Current",25,"Mobile App - Android",79.90,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,10.00,1,1,"Approve",,,0
+317,2026-10-13 09:40:32,9,21,"Personal Current",32,"Web Browser - Desktop",355.61,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+318,2026-10-13 15:55:25,15,49,"Savings",27,"Web Browser - Desktop",162.13,"CHF","Bulgaria","Bulgaria",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+319,2026-10-13 17:32:24,17,41,"Premium",40,"POS Terminal",193.40,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+320,2026-10-13 17:36:11,17,52,"Business",31,"Web Browser - Desktop",36128.24,"EUR","Bulgaria","Bulgaria",0,"Under Review",0,1,50.00,2,4,"Hold for Manual Review",33,"Assigned",1
+321,2026-10-13 18:43:31,18,21,"Personal Current",39,"POS Terminal",35.56,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+322,2026-10-13 20:14:16,20,21,"Personal Current",32,"Web Browser - Desktop",202.37,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+323,2026-10-14 11:10:40,11,58,"Savings",39,"POS Terminal",3086.44,"EUR","Italy","Italy",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+324,2026-10-14 11:30:00,11,28,"Business",30,"Web Browser - Desktop",9073.57,"CHF","Bulgaria","Switzerland",1,"Pending Verification",0,1,35.00,2,3,"Step-up Authentication (OTP)",34,"Assigned",1
+325,2026-10-14 14:10:40,14,58,"Savings",21,"Mobile App - Android",1208.50,"EUR","Italy","Italy",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+326,2026-10-14 16:02:55,16,52,"Business",39,"POS Terminal",2133.70,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+327,2026-10-15 04:16:15,4,2,"Business",32,"Web Browser - Desktop",12000.00,"EUR","Bulgaria","Bulgaria",0,"Pending Verification",0,1,48.00,3,3,"Step-up Authentication (OTP)",35,"Assigned",1
+328,2026-10-15 08:14:53,8,36,"Business",34,"Web Browser - Desktop",15000.00,"EUR","Germany","Germany",0,"Under Review",0,1,58.00,3,4,"Hold for Manual Review",36,"Assigned",1
+329,2026-10-15 13:22:52,13,14,"Personal Current",36,"Web Browser - Desktop",7.32,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+330,2026-10-15 16:48:12,16,25,"Personal Current",26,"Mobile App - Android",56.93,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+331,2026-10-15 17:00:44,17,22,"Personal Current",25,"Mobile App - Android",13.36,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+332,2026-10-16 13:26:28,13,29,"Personal Current",35,"Web Browser - Desktop",49.11,"EUR","Germany","Germany",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+333,2026-10-17 04:45:18,4,3,"Personal Current",4,"Mobile App - iOS",14.95,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,10.00,1,1,"Approve",,,0
+334,2026-10-17 09:34:54,9,51,"Savings",4,"Mobile App - iOS",354.70,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+335,2026-10-17 12:06:23,12,30,"Personal Current",30,"Web Browser - Desktop",55.98,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+336,2026-10-18 07:49:20,7,9,"Savings",37,"ATM",551.91,"EUR","Greece","Greece",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+337,2026-10-18 11:42:04,11,4,"Personal Current",6,"Mobile App - iOS",79.62,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+338,2026-10-18 14:53:22,14,44,"Personal Current",20,"Mobile App - Android",1.59,"EUR","Bulgaria","Ireland",1,"Approved",0,1,25.00,2,2,"Approve and Notify Customer",,,0
+339,2026-10-18 14:54:43,14,44,"Personal Current",20,"Mobile App - Android",28.40,"EUR","Bulgaria","Singapore",1,"Approved",0,1,10.00,1,1,"Approve",,,0
+340,2026-10-18 14:57:46,14,44,"Personal Current",20,"Mobile App - Android",36.22,"EUR","Bulgaria","Ireland",1,"Approved",0,1,30.00,2,2,"Approve and Notify Customer",,,0
+341,2026-10-18 14:58:22,14,44,"Personal Current",20,"Mobile App - Android",16.67,"EUR","Bulgaria","Ireland",1,"Approved",0,1,30.00,2,2,"Approve and Notify Customer",,,0
+342,2026-10-18 18:11:00,18,2,"Business",32,"Web Browser - Desktop",1287.37,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+343,2026-10-18 18:33:37,18,17,"Personal Current",26,"Mobile App - Android",3.59,"EUR","Germany","Germany",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+344,2026-10-19 12:48:35,12,6,"Personal Current",16,"Mobile App - Android",27.68,"EUR","Germany","Germany",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+345,2026-10-19 14:07:41,14,25,"Personal Current",26,"Mobile App - Android",12.06,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+346,2026-10-19 16:05:35,16,33,"Student",5,"Mobile App - iOS",20.42,"EUR","France","France",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+347,2026-10-19 19:15:55,19,41,"Premium",3,"Mobile App - iOS",14.68,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+348,2026-10-20 14:28:26,14,38,"Personal Current",34,"Web Browser - Desktop",107.66,"EUR","Bulgaria","Bulgaria",0,"Approved",0,1,0.00,0,1,"Approve",,,0
+349,2026-10-20 20:37:00,20,55,"Personal Current",39,"POS Terminal",38.08,"EUR","Romania","Romania",0,"Approved",0,1,15.00,1,1,"Approve",,,0
+350,2026-10-20 22:46:29,22,53,"Business",31,"Web Browser - Desktop",3000.00,"EUR","Bulgaria","Romania",1,"Approved",0,1,18.00,2,1,"Approve",,,0
