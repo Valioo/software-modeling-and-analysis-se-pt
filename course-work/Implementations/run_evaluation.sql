@@ -1,8 +1,5 @@
--- =====================================================================
--- run_evaluation.sql
 -- Пуска usp_EvaluateTransaction за всички транзакции (по ред), после
 -- симулира работа на анализаторите (затваряне на аларми -> тригер 1).
--- =====================================================================
 USE RiskManagementPlatform;
 GO
 SET NOCOUNT ON;
@@ -44,21 +41,3 @@ FROM Alert a
 JOIN [Transaction] t ON t.Id = a.Transaction_Id
 WHERE a.Created_at < '2026-10-10';
 GO
-
--- ---------- Проверки ----------
-SELECT Status, COUNT(*) AS Transactions FROM [Transaction] GROUP BY Status ORDER BY Transactions DESC;
-SELECT Status, COUNT(*) AS Alerts FROM Alert GROUP BY Status ORDER BY Alerts DESC;
-
-SELECT q.Name AS Queue, COUNT(*) AS Alerts
-FROM Alert_Case_Queue acq JOIN Case_Queue q ON q.Id = acq.Queue_Id
-GROUP BY q.Name ORDER BY Alerts DESC;
-
--- Топ 10 най-рискови транзакции
-SELECT TOP (10) t.Id, t.Amount, t.Currency, t.Source_country, t.Destination_country,
-       [dbo].[fn_GetTotalTransactionScore](t.Id) AS Score, d.Action_Name, t.Status
-FROM [Transaction] t
-CROSS APPLY dbo.fn_GetRiskDecision([dbo].[fn_GetTotalTransactionScore](t.Id), t.[Timestamp]) d
-ORDER BY Score DESC;
-
--- Тест на валидацията (трябва да даде грешка - припокриване):
--- EXEC dbo.usp_AddRiskThreshold 3, 40, 60, 3, '2026-07-01', '2099-12-31 23:59:59';
